@@ -5,7 +5,7 @@ const Form = ({addToQueue}) => {
     const itemRef = useRef()
 
     function callAddToQueue() {
-        itemRef.current.value && addToQueue(itemRef.current.value);
+        itemRef.current.value && addToQueue(+itemRef.current.value);
         itemRef.current.value = ''
     }
 

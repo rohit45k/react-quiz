@@ -16,7 +16,7 @@ function App() {
     },
     {
       name: 'C',
-      que: [10]
+      que: [10, 20]
     },
     {
       name: 'D',
@@ -45,6 +45,7 @@ function App() {
     const totalItems = queue.map(q => {
       return q.que.reduce((a, b) => a+b, 0)
     })
+    console.log(totalItems);
     const minIndex = totalItems.reduce((prevIndex, value, index) => value < totalItems[prevIndex] ? index : prevIndex, 0)
     let newQueue = [...queue];
     let newElement = newQueue[minIndex]
