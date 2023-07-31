@@ -1,4 +1,4 @@
-##Supermarket billing counter
+## Supermarket billing counter
 
 It is a simple challenge from ezsnippet to create a react app which has following 
 1.  5 Billing Counters
