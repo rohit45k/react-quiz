@@ -8,4 +8,4 @@ It is a simple challenge from ezsnippet to create a react app which has followin
 
 Didn't worked on UI it was just a fun problem to solve.
 
-Check the live version at: 
+Check the live version at: https://billing-counter.netlify.app
